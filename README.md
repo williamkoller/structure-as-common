@@ -12,7 +12,7 @@ yarn add @williamkoller/structure-as-common
 
 <h3>If you want to use Logger</h3>
 
-<h4>In AppModule</>
+<h4>In AppModule</h4>
 
 ```ts
 import { Module } from '@nestjs/common';
@@ -148,4 +148,5 @@ export class AppService {
   }
 }
 ```
+
 Made with 🖤 by [williamkoller](https://github.com/williamkoller) :wave:
