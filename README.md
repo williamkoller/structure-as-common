@@ -5,5 +5,5 @@
 ### Installation
 
 ```bash
-yarn add @williamkoller/structure-as-common and yarn add --dev @types/@williamkoller/structure-as-common
+yarn add @williamkoller/structure-as-common
 ```
