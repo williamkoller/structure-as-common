@@ -1,8 +1,9 @@
 {
   "name": "@williamkoller/structure-as-common",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Structure As Commun For NestJS",
-  "main": "dist/main.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "git@github.com:williamkoller/structure-as-common.git",
   "author": "William Koller",
   "license": "MIT",
@@ -13,7 +14,6 @@
     "structure-as-common",
     "typescript"
   ],
-  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && tsc",
     "prepublish": "npm run build",
