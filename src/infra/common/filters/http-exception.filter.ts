@@ -6,7 +6,7 @@ import {
   HttpStatus,
 } from '@nestjs/common';
 import { Request, Response } from 'express';
-import { LoggerService } from '@app/structure-as-common/infra/logger/logger.service';
+import { LoggerService } from './../../../infra/logger/logger.service';
 
 interface ErrorInterface {
   message: string;

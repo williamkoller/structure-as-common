@@ -1,7 +1,7 @@
 import {
   ExceptionInterface,
   FormatExceptionMessageInterface,
-} from '@app/structure-as-common/domain/exception/exception.interface';
+} from '../../domain/exception/exception.interface';
 import {
   BadRequestException,
   ConflictException,

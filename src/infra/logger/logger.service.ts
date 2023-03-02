@@ -1,4 +1,4 @@
-import { LoggerInterface } from '@app/structure-as-common/domain/logger/logger.interface';
+import { LoggerInterface } from '../../domain/logger/logger.interface';
 import { Injectable, Logger } from '@nestjs/common';
 
 @Injectable()
