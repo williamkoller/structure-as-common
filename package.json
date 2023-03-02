@@ -1,9 +1,9 @@
 {
   "name": "@williamkoller/structure-as-common",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "Structure As Commun For NestJS",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "repository": "git@github.com:williamkoller/structure-as-common.git",
   "author": "William Koller",
   "license": "MIT",
