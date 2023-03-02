@@ -1,4 +1,4 @@
-export * from './structure-as-common.module';
+export * from './infra/common/filters/http-exception.module';
 export * from './infra/common/filters/http-exception.filter';
 export * from './infra/exception/exception.module';
 export * from './infra/exception/exception.service';

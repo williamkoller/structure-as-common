@@ -1,7 +1,13 @@
-import { Module } from '@nestjs/common';
+import { DynamicModule, Module } from '@nestjs/common';
 import { ExceptionService } from './exception.service';
 
-@Module({
-  providers: [ExceptionService]
-})
-export class ExceptionModule {}
+@Module({})
+export class ExceptionModule {
+  static register(): DynamicModule {
+    return {
+      module: ExceptionModule,
+      providers: [ExceptionService],
+      exports: [ExceptionService],
+    };
+  }
+}
