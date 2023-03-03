@@ -68,7 +68,7 @@ async function bootstrap() {
 bootstrap();
 ```
 
-<h4>LogginInterceptor Log</h4>
+<h4>LogginInterceptor</h4>
 <img src="./img/logging.png">
 
 <h4>If you want to use TimeoutInterceptor and LoggingInterceptor</h4>
