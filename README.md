@@ -46,7 +46,7 @@ export class AppService {
 
 <h4>If you want to use HttpExceptionFilter</h4>
 
-<h4>In main.ts</h5>
+<h4>In main.ts</h4>
 
 ```ts
 import { ValidationPipe } from '@nestjs/common';
