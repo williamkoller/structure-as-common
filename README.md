@@ -68,6 +68,9 @@ async function bootstrap() {
 bootstrap();
 ```
 
+<h4>LogginInterceptor Log</h4>
+<img src="./img/logging.png">
+
 <h4>If you want to use TimeoutInterceptor and LoggingInterceptor</h4>
 
 <h4>In main.ts</h4>
@@ -146,6 +149,17 @@ export class AppService {
 
     return `id: ${id}`;
   }
+}
+```
+
+<h4>Request Error</h4>
+
+```bash
+{
+  "statusCode": 400,
+  "timestamp": "2023-03-03T14:51:09.486Z",
+  "path": "/app/find-by-id/1",
+  "message": "id cannot be one"
 }
 ```
 
